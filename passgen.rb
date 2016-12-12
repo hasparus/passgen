@@ -5,7 +5,8 @@ if (ARGV[0] == 'generate' || ARGV[0] == 'g')
         dict += File.readlines(x, encoding: 'UTF-8')
     end
 
-    n = ARGV[1].to_i || 4
+    n = ARGV[1].to_i
+    n = 4 if n.zero?
     puts (1..n).map { dict[SecureRandom.random_number(dict.length)] }
 else
     puts \
