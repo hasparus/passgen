@@ -1,3 +1,4 @@
+#!/usr/local/bin/ruby
 if (ARGV[0] == 'generate' || ARGV[0] == 'g')
     require 'securerandom'
     dict = []
