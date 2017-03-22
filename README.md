@@ -4,4 +4,4 @@ Short ruby script to generate random words from all ".dic" files in current dire
 NOTICE.
 Do not use it just with English dictionary. These passwords are not strong enough. You'll be better off with combining Hungarian and French.
 
-**If you need a strong password, always use long string of random characters.**
+**If you need a strong password, use long string of random characters.**
